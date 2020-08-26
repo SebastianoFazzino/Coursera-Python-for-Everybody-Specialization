@@ -1,7 +1,7 @@
 #how to find the most common word in a text:
 
-
-file = open('Assignment.txt')
+openfile = input("Enter file name: ")
+file = open(openfile)
 counts = dict()
 
 for line in file:
